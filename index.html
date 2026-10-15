@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Belleza Total: productos para el cuidado de tu piel.">
+  <title>Belleza Total | Tu belleza, nuestra pasión</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- ENCABEZADO -->
+  <header class="cabecera">
+    <div class="contenedor barra">
+      <a href="#inicio" class="logo">
+        <span class="flor" aria-hidden="true">✿</span>
+        <span>Belleza Total <small>TU BELLEZA, NUESTRA PASIÓN</small></span>
+      </a>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#productos" aria-label="Ver productos">🛒</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PORTADA -->
+    <section id="inicio" class="portada">
+      <div class="contenedor">
+        <div class="texto-portada">
+          <p class="etiqueta">CUIDA · NUTRE · DESTACA</p>
+          <h1>Realza tu <span>belleza natural</span></h1>
+          <p>Descubre una línea de productos diseñados para el cuidado de tu piel, realzando lo mejor de ti.</p>
+          <a href="#productos" class="boton">Ver productos →</a>
+        </div>
+      </div>
+      <img src="img/hero-belleza.jpg" alt="Productos Belleza Total junto a una modelo">
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="beneficios">
+      <div class="contenedor ventajas">
+        <article>
+          <span class="icono" aria-hidden="true">💎</span>
+          <h2>Calidad premium</h2>
+          <p>Productos de alta calidad para resultados visibles.</p>
+        </article>
+        <article>
+          <span class="icono" aria-hidden="true">🌿</span>
+          <h2>Ingredientes seleccionados</h2>
+          <p>Fórmulas con ingredientes naturales y seguros.</p>
+        </article>
+        <article>
+          <span class="icono" aria-hidden="true">♡</span>
+          <h2>Atención personalizada</h2>
+          <p>Te asesoramos en cada paso de tu rutina de belleza.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="productos">
+      <div class="contenedor">
+        <p class="etiqueta">NUESTROS PRODUCTOS</p>
+        <h2>Favoritos de nuestra colección</h2>
+        <div class="tarjetas">
+          <article class="producto">
+            <img src="img/crema-facial.jpg" alt="Crema Facial Hidratante" loading="lazy">
+            <div class="detalle">
+              <h3>Crema Facial Hidratante</h3>
+              <p>Hidrata, nutre y revitaliza tu piel día tras día.</p>
+              <div class="compra"><strong>$ 24.99</strong><a href="#contacto" class="boton">Comprar 🛒</a></div>
+            </div>
+          </article>
+          <article class="producto">
+            <img src="img/serum-revitalizante.jpg" alt="Sérum Revitalizante" loading="lazy">
+            <div class="detalle">
+              <h3>Sérum Revitalizante</h3>
+              <p>Con antioxidantes que iluminan y rejuvenecen.</p>
+              <div class="compra"><strong>$ 29.99</strong><a href="#contacto" class="boton">Comprar 🛒</a></div>
+            </div>
+          </article>
+          <article class="producto">
+            <img src="img/kit-maquillaje.jpg" alt="Kit de Maquillaje Esencial" loading="lazy">
+            <div class="detalle">
+              <h3>Kit de Maquillaje Esencial</h3>
+              <p>Todo lo que necesitas para un look perfecto y natural.</p>
+              <div class="compra"><strong>$ 34.99</strong><a href="#contacto" class="boton">Comprar 🛒</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO: formulario de ejemplo, sin envío de datos -->
+    <section id="contacto" class="contacto">
+      <div class="contenedor contacto-grid">
+        <div>
+          <p class="etiqueta">CONTÁCTANOS</p>
+          <h2>Nos encantaría<br>saber de ti</h2>
+          <p>¿Tienes preguntas, sugerencias o necesitas asesoría personalizada? Escríbenos y te responderemos lo antes posible.</p>
+        </div>
+        <form class="formulario">
+          <label>Tu nombre <input type="text" name="nombre" autocomplete="name" required></label>
+          <label>Tu correo electrónico <input type="email" name="correo" autocomplete="email" required></label>
+          <label>Tu mensaje <textarea name="mensaje" rows="3" required></textarea></label>
+          <button class="boton" type="button">Enviar →</button>
+          <small>Formulario de práctica. No envía mensajes.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <strong>✿ Belleza Total</strong>
+      <p>© 2026 Belleza Total. Todos los derechos reservados.</p>
+      <div class="redes">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
